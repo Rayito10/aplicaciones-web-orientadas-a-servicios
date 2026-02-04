@@ -1,0 +1,37 @@
+body{
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.perfil-header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: 3px solid rgb(202, 22, 160);
+}
+
+.post{
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 3px solid black;
+}
+
+.post-title{
+    font-weight: bold;
+    color: #240219;
+}
+
+select{
+    padding: 5px;
+    border-radius: 5px;
+}
